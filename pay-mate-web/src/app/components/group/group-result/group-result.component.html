@@ -1,0 +1,26 @@
+<div class="row" *ngFor="let debt of group.result">
+  <div class="col s12 m7">
+    <div class="card card-content">
+      <div class="card-content center card-title">
+        <div>
+          <div>
+            <img class="btn-floating" src="{{debt.debtorImage}}">
+            <p>{{debt.debtorName}}</p>
+          </div>
+          <p>owes {{debt.amount}}€</p>
+          <div>
+            <img class="btn-floating" src="{{debt.destinationImage}}">
+            <p>to {{debt.destinationName}}</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card-content center blue white-text col s6">
+          <i class=" material-icons">credit_card</i>
+      </div>
+      <div class="card-content center grey col s6">
+          <i class=" material-icons">check</i>
+        </div> -->
+    </div>
+  </div>
+</div>
+

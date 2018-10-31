@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  display: inline;
+}

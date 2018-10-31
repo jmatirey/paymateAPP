@@ -1,0 +1,11 @@
+<div class="title card red lighten-2 z-depth-3 center ">
+  <span class="title-text">Your groups list </span>
+  <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal light-green z-depth-2">
+    <i class="material-icons" (click)="onCreateGroup()">group_add</i>
+  </a>
+</div>
+
+
+<div>
+  <app-group-item *ngFor="let group of groups" [group]="group"></app-group-item>
+</div>
